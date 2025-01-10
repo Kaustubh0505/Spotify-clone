@@ -63,6 +63,12 @@ body{
     list-style: none;
     padding-top: 14px;
     font-weight: bold;
+    cursor: pointer;
+    transition:0.2s ease-out
+}
+
+.home > ul > li:hover{
+    scale:1.1;
 }
 
 .heading {
@@ -111,7 +117,7 @@ body{
     text-align: center;
     border-radius: 25px;
     margin-top:20px;
-    transition: 0.1s ease-out;
+    transition: 0.2s ease-out;
 }
 .p2:hover{
     cursor: pointer;
@@ -140,7 +146,7 @@ body{
     border-radius: 10px;
     border-radius: 10px;
     padding:20px 0px 0px 20px;
-    transition: 0.1s ease-out;
+    transition: 0.2s ease-out;
 
 }
 
@@ -258,12 +264,13 @@ body{
     padding-top:10px;
     height:190px;
     width:200px;
+    transition: 0.2s ease-out;
 }
 
 .albumcard > p{
     font-family:Helvetica;
     font-size:17px;
-    padding:5px 0px 3px 3px;
+    padding:5px 0px 3px 5px;
 }
 
 .albumcard > a{
@@ -271,10 +278,13 @@ body{
     color:#b3b3b3;
     padding-left:5px;
 }
+.albumcard > img:hover{
+    scale:1.04;
+}
 .radioplaylist{
     margin:15px 0px 0px 0px;
-
 }
+
 .radiocontainer{
     display: flex;
     justify-content: space-between;
@@ -284,10 +294,16 @@ body{
 .radiocard > img{
     height:190px;
     width:200px;
+    transition: 0.2s ease-out;
+}
+
+.radiocard > img:hover{
+    scale: 1.04;
 }
 
 .radiocard > p{
     font-size:14px;
+    margin-top:8px;
     color:#b3b3b3;
 }
 
